@@ -1,0 +1,95 @@
+body{
+    padding: 20px;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+
+.icons{
+    margin-left: 50%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+.hero-text{
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 50%;
+}
+
+.heroSection{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+
+}
+
+
+figcaption{
+    text-align: center;
+}
+
+.shop1{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+
+}
+
+.shops{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+
+.newArivalsCont{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.newArr{
+    text-align: center;
+}
+.sales{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+/* .logos{
+    display: grid;
+    grid-template-columns: 10% 10% 10%;
+    margin-bottom: 0px;
+} */  /*FOR THE 6 COLUMNS*/
+
+
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.img{
+    text-align: center;
+}
+
+.logos{
+    padding: 50px;
+    text-align: center;
+}
+
+.her{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width:375px){
+
+    body{
+        padding: 20px;
+       
+    }
+}
+
