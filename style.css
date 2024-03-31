@@ -8,7 +8,14 @@ body{
 }
 
 .icons{
+    width: 50px;
+    height: 40px;
+    padding: 10px;
+}
+.icons1{
     margin-left: 50%;
+    display: flex;
+    flex-direction: row;
 }
 
 a{
@@ -110,45 +117,30 @@ figcaption{
     height: 85%;
 }
 
-@media screen and (min-width:375px){
 
-    body{
-        padding: 20px;
-       
-    }
-}
 
 @media only screen and (min-width: 280px) and (max-width: 360px){
-    .nav-bar{
-        display: flex;
-        flex-direction: row;
-        font-size: x-small;
-    }
+   
     body{
         padding: 20px;
     }
-    .nav-bar{
-        display: flex;
-        flex-direction: row;
-    }
+    
     .forHer{
         width: 75%; 
         height: 75%;
     }
     
-    .icons{
-        width: 20px;
-        height: 20px;
-    }
-    .icons1{
-        display: flex;
-        flex-direction: row;
-    }
+    
     .funnel{
         width: 90px; 
         height: 80px;
         margin-top: 90%;
         
+    }
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
     }
     
     a{
@@ -241,9 +233,7 @@ figcaption{
         grid-template-columns: auto auto auto auto auto;
     
     }
-    .explore{
-    
-    }
+   
     .her{
         width: 300px;
         height: 300px;
@@ -275,21 +265,7 @@ figcaption{
     body{
         padding: 20px;
     }
-    .nav-bar{
-        display: flex;
-        flex-direction: row;
-        padding: 50px;
-    }
-    
-    .icons{
-        margin-left: 50%;
-    }
-    
-    a{
-        text-decoration: none;
-        color: black;
-        padding: 20px;
-    }
+
     .hero-text{
         text-align: center;
         margin-top: 30%;
@@ -302,6 +278,7 @@ figcaption{
         margin-top: 50%;
         margin-right: 90%;
     }
+
     
     .heroSection{
         display: grid;
@@ -313,7 +290,12 @@ figcaption{
         display: flex;
         flex-direction: column;
     }
-    
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+      
     
     figcaption{
         text-align: center;
@@ -420,15 +402,7 @@ figcaption{
     body{
         padding: 20px;
     }
-    .nav-bar{
-        display: flex;
-        flex-direction: row;
-        padding: 50px;
-    }
-    
-    .icons{
-        margin-left: 50%;
-    }
+   
     
     a{
         text-decoration: none;
@@ -439,6 +413,11 @@ figcaption{
         text-align: center;
         margin-top: 30%;
         margin-left: 10%;
+    }
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
     }
     
     .bottom-nav{
@@ -567,10 +546,9 @@ figcaption{
     }
     .nav-bar{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         padding: 50px;
     }
-    
     .icons{
         margin-left: 50%;
     }
